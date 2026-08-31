@@ -41,7 +41,7 @@ class PrefixProblem {
         for (int i = 0; i < words.size(); i++) {
             String word = words.get(i);
             Node curr = root;
-            StringBuilder prefix = new StringBuilder();
+            StringBuilder prefix = new StringBuilder(); // important
 
             for (int j = 0; j < word.length(); j++) {
                 int idx = word.charAt(j) - 'a';
